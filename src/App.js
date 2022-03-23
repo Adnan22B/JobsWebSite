@@ -7,6 +7,7 @@ import {BrowserRouter, Switch, Route} from "react-router-dom"
 function App() {
   return ( 
     <BrowserRouter>
+    <div className='preloader'></div>
     <Header /> 
     <Switch>  
         {ROUTES.map((item, index) => 

@@ -5708,7 +5708,7 @@ Main Header
   line-height: 16px;
   font-size: 12px;
 }
-
+.page-wrapper{margin-top: 90px;}
 .main-header.alternate {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -18290,7 +18290,9 @@ Product Tabs
 .main-header.header-style-four.-type-16 .theme-btn.btn-style-six {
   border: none;
 }
-
+.banner-section-four{
+  background-image: url('assets/images/background/2.png');
+}
 .banner-section-four.-type-16 {
   padding: 0;
   height: auto;
@@ -20675,4 +20677,9 @@ Work Section
   width: 100%;
   min-width: auto;
   height: 60px;
+}
+
+
+.banner-image-four {
+  background-image: url('assets/images/background/2.png')
 }

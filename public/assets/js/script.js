@@ -162,26 +162,26 @@
 
 
 	// Mobile Navigation
-	if($('#nav-mobile').length){
-		jQuery(function ($) {
-		  var $navbar = $('#navbar');
-		  var $mobileNav = $('#nav-mobile');
+	// if($('#nav-mobile').length){
+	// 	jQuery(function ($) {
+	// 	  var $navbar = $('#navbar');
+	// 	  var $mobileNav = $('#nav-mobile');
 		  
-		  $navbar
-		    .clone()
-		    .removeClass('navbar')
-		    .appendTo($mobileNav);
+	// 	  $navbar
+	// 	    .clone()
+	// 	    .removeClass('navbar')
+	// 	    .appendTo($mobileNav);
 		  
-		  $mobileNav.mmenu({
-		  	"counters": false,
-		  	extensions 	: [ "position-bottom", "fullscreen", "theme-black", ],
-		    offCanvas: {
-		      position: 'left',
-		      zposition: 'front',
-		    }
-		  });
-		});
-	}
+	// 	  $mobileNav.mmenu({
+	// 	  	"counters": false,
+	// 	  	extensions 	: [ "position-bottom", "fullscreen", "theme-black", ],
+	// 	    offCanvas: {
+	// 	      position: 'left',
+	// 	      zposition: 'front',
+	// 	    }
+	// 	  });
+	// 	});
+	// }
 
 	//Banner Carousel 
 	if ($('.banner-carousel').length) {
